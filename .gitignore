@@ -1,3 +1,4 @@
+
 # Miscellaneous
 *.class
 *.log
@@ -18,10 +19,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code
+# .vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -39,10 +38,81 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android build artifacts
 /android/app/debug
 /android/app/profile
 /android/app/release
 
-# Widget Preview related
+# Widget Preview
 .widget_preview/
+
+# Node.js
+node_modules/
+jspm_packages/
+web_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-store/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Node.js runtime and diagnostic files
+logs/
+pids
+*.pid
+*.seed
+*.pid.lock
+report.*.*.*.*.json
+lib-cov/
+*.lcov
+.nyc_output/
+.grunt/
+.lock-wscript
+build/Release/
+
+# JavaScript tooling
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env
+.env.*
+!.env.example
+.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
+dist/
+.output/
+.nitro/
+.vuepress/dist
+.temp/
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.firebase/
+.tern-port
+.vscode-test/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vite/
+.astro/
+.turbo/
+.nx/cache/
+.nx/workspace-data/
+.nx/migrate-runs/
